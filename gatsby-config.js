@@ -1,7 +1,6 @@
 module.exports = {
-  pathPrefix: `/mini-gatsbyv2-material-kit-react`,
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Sociedad',
   },
   plugins: [
     'gatsby-plugin-resolve-src',
@@ -12,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
+        name: 'sociedad',
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
