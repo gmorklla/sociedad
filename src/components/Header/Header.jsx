@@ -86,7 +86,7 @@ class Header extends React.Component {
       </Button>
     )
     return (
-      <AppBar className={appBarClasses} style={{ color: "slategray" }}>
+      <AppBar className={appBarClasses}>
         <Toolbar className={classes.container}>
           {leftLinks !== undefined ? brandComponent : null}
           <div className={classes.flex}>
